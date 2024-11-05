@@ -6,3 +6,10 @@ h1 {
   color: red;
   text-align: center;
 }
+
+.flex {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

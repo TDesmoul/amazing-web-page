@@ -2,8 +2,19 @@
   <head>
     <title>My Amazing Web Page</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
   </head>
   <body>
     <h1>Hello World</h1>
+    <div class="flex">
+      <button>Click me!! 😉</button>
+    </div>
+    <script>
+      const button = document.querySelector("button");
+      const jsConfetti = new JSConfetti();
+      button.addEventListener("click", () => {
+        jsConfetti.addConfetti();
+      });
+    </script>
   </body>
 </html>
