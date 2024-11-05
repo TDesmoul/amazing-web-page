@@ -1,7 +1,8 @@
 body {
-  background-color: lightblue;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   color: red;
+  text-align: center;
 }
